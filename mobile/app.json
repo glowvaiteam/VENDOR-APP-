@@ -1,0 +1,31 @@
+{
+  "expo": {
+    "name": "GlowVAI Vendor",
+    "slug": "glowvai-vendor",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#1A0533"
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.glowvai.vendor"
+    },
+    "android": {
+      "package": "com.glowvai.vendor"
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-router"
+    ],
+    "scheme": "glowvaivendor",
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
